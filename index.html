@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>O’Réalise | Coaching & Conseil Graphique</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="antialiased bg-gray-50 text-gray-800">
+
+<header class="bg-white shadow">
+  <div class="container mx-auto flex items-center justify-between p-6">
+    <a href="index.html">
+      <img src="assets/logo.png" alt="O’Réalise" class="h-12">
+    </a>
+    <nav>
+      <ul class="flex space-x-6">
+        <li><a href="#mission" class="hover:text-indigo-600">Mission</a></li>
+        <li><a href="#services" class="hover:text-indigo-600">Services</a></li>
+        <li><a href="#contact" class="hover:text-indigo-600">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="bg-indigo-600 text-white py-20 text-center">
+  <h1 class="text-4xl font-bold mb-4">Révélez votre potentiel & brillez</h1>
+  <p class="text-lg mb-8">Coaching humain et création graphique pour particuliers et professionnels</p>
+  <a href="#services" class="bg-white text-indigo-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100">Découvrir</a>
+</section>
+
+<section id="mission" class="py-16 text-center">
+  <div class="container mx-auto">
+    <h2 class="text-3xl font-bold mb-6">Notre Mission</h2>
+    <p class="max-w-2xl mx-auto leading-relaxed">Offrir un accompagnement humain personnalisé pour permettre à chacun de s’épanouir et guider les professionnels dans la création d’une identité visuelle authentique et percutante.</p>
+  </div>
+</section>
+
+<section id="services" class="bg-gray-100 py-16">
+  <div class="container mx-auto">
+    <h2 class="text-3xl font-bold text-center mb-10">Nos Services</h2>
+    <div class="grid md:grid-cols-2 gap-8">
+      <div class="bg-white p-6 rounded-lg shadow">
+        <h3 class="text-2xl font-semibold mb-4">Coaching & Développement</h3>
+        <ul class="list-disc list-inside leading-relaxed text-left">
+          <li>Bilan personnel approfondi</li>
+          <li>Plan d’action sur 3 mois</li>
+          <li>Coaching de vie (5 séances)</li>
+        </ul>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow">
+        <h3 class="text-2xl font-semibold mb-4">Conseil & Création Graphique</h3>
+        <ul class="list-disc list-inside leading-relaxed text-left">
+          <li>Audit de marque</li>
+          <li>Création de logo & charte graphique</li>
+          <li>Supports de communication</li>
+          <li>Kit social media</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="py-16">
+  <div class="container mx-auto max-w-lg">
+    <h2 class="text-3xl font-bold text-center mb-6">Contactez-nous</h2>
+    <form class="bg-white p-8 rounded-lg shadow-lg space-y-6">
+      <div>
+        <label for="name" class="block text-sm font-medium mb-1">Nom</label>
+        <input id="name" type="text" class="w-full border border-gray-300 rounded px-3 py-2" required>
+      </div>
+      <div>
+        <label for="email" class="block text-sm font-medium mb-1">Email</label>
+        <input id="email" type="email" class="w-full border border-gray-300 rounded px-3 py-2" required>
+      </div>
+      <div>
+        <label for="message" class="block text-sm font-medium mb-1">Message</label>
+        <textarea id="message" rows="4" class="w-full border border-gray-300 rounded px-3 py-2" required></textarea>
+      </div>
+      <button type="submit" class="w-full bg-indigo-600 text-white px-4 py-2 rounded-lg font-semibold hover:bg-indigo-500">Envoyer</button>
+    </form>
+  </div>
+</section>
+
+<footer class="bg-gray-800 text-gray-400 py-6 text-center">
+  <p>&copy; 2025 O’Réalise. Tous droits réservés.</p>
+</footer>
+
+</body>
+</html>
